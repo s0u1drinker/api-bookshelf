@@ -1,0 +1,29 @@
+[
+  {
+    "bookISBN": "9785918780381",
+    "appearance": 10,
+    "plot": 10,
+    "atmosphere": 10,
+    "involvement": 10,
+    "emotions": 10,
+    "summary": 10
+  },
+  {
+    "bookISBN": "9785918780374",
+    "appearance": 10,
+    "plot": 10,
+    "atmosphere": 10,
+    "involvement": 10,
+    "emotions": 10,
+    "summary": 10
+  },
+  {
+    "bookISBN": "9785907577503",
+    "appearance": 8,
+    "plot": 9,
+    "atmosphere": 10,
+    "involvement": 9,
+    "emotions": 10,
+    "summary": 9.2
+  }
+]
