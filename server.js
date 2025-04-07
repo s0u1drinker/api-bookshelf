@@ -1,11 +1,15 @@
 const express = require('express')
 const app = express()
+const cors = require('cors')
 const bodyParser = require('body-parser')
 require('dotenv').config()
 
 const PORT = 3000
 const v1Router = require('./v1/routes')
 
+app.use(cors({
+  origin: 'http://localhost:5173',
+}))
 app.use(bodyParser.json());
 
 app.use('/api/v1', v1Router)
